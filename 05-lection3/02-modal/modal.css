@@ -1,0 +1,49 @@
+.container {
+    padding: 35px 35px 35px 196px;
+    display: flex;
+    align-items: center;
+    gap: 156px;
+}
+
+.modal {
+    display: flex;
+    box-sizing: border-box;
+    padding: 40px 40px 47px;
+    width: 508px;
+    height: 381px;
+    background-color: var(--grey-7);
+}
+
+.modal__container {
+    padding: 30px 40px 33px 40px;
+    background-color: var(--white);
+    flex-grow: 1;
+    border-radius: 8px;
+    position: relative;
+}
+
+.modal__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--blue-4);
+}
+
+.modal__text {
+    color: var(--grey-4);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--blue-4);
+}
+
+.modal__close {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+}
