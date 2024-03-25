@@ -1,0 +1,48 @@
+.tabs {
+    background-color: transparent;
+}
+
+.tabs__content_allComponents {
+    width: 100vw;
+    background-color: var(--grey-8);
+}
+
+.tabs__title {
+    margin: 0 auto 40px;
+    max-width: 1110px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 64px;
+}
+
+.tabs__label {
+    padding-bottom: 8px;
+    margin-right: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--grey-3);
+    text-decoration: none;
+}
+
+
+.tabs__wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+
+.tabs input[type="radio"] {
+    display: none;
+}
+
+.tabs input#allComponents:checked~.tabs__wrapper label[for="allComponents"],
+.tabs input#atoms:checked~.tabs__wrapper label[for="atoms"],
+.tabs input#molecules:checked~.tabs__wrapper label[for="molecules"],
+.tabs input#organisms:checked~.tabs__wrapper label[for="organisms"] {
+   border-bottom: 5px solid var(--black);
+   color: var(--black);
+}
